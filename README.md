@@ -15,16 +15,23 @@ Explore 1,200 e-commerce orders (2023 to 2025) to understand what a typical orde
 
 ## Key Findings
 - **About 41% of orders are Cancelled (20.8%) or Returned (20.6%).** Only 19.3% were Delivered.
+
 - **A typical order is about 824, not 1,054.** TotalPrice is right-skewed (0.89), so the median is more reliable than the mean.
-- **8 high-value outliers** in TotalPrice, possibly bulk or VIP buyers. Investigate, don't delete.
-- **Average order value is slowly falling:** 1,083 (2023), 1,046 (2024), 1,003 (2025). 2025 is a partial year.
-- **Monthly revenue is volatile** (about 28k to 68k) with no clear seasonality.
-- **TotalPrice correlates with UnitPrice (0.72) and Quantity (0.62)**, which is expected since TotalPrice = Quantity × UnitPrice.
-  
-##Visuals
+
 ![TotalPrice distribution](histrogram.png)
+
+- **8 high-value outliers** in TotalPrice, possibly bulk or VIP buyers. Investigate, don't delete.
+
 ![TotalPrice boxplot](boxplot.png)
+
+- **Average order value is slowly falling:** 1,083 (2023), 1,046 (2024), 1,003 (2025). 2025 is a partial year.
+
+- **Monthly revenue is volatile** (about 28k to 68k) with no clear seasonality.
+
 ![Monthly revenue](line_chart.png)
+
+- **TotalPrice correlates with UnitPrice (0.72) and Quantity (0.62)**, which is expected since TotalPrice = Quantity × UnitPrice.
+
 ![Correlation heatmap](heatmap.png)
 
 ## Recommendations
