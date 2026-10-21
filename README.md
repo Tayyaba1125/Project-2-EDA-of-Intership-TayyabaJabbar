@@ -20,7 +20,12 @@ Explore 1,200 e-commerce orders (2023 to 2025) to understand what a typical orde
 - **Average order value is slowly falling:** 1,083 (2023), 1,046 (2024), 1,003 (2025). 2025 is a partial year.
 - **Monthly revenue is volatile** (about 28k to 68k) with no clear seasonality.
 - **TotalPrice correlates with UnitPrice (0.72) and Quantity (0.62)**, which is expected since TotalPrice = Quantity × UnitPrice.
-
+  
+## Visuals
+![Distribution](images/histogram.png)
+![Outliers](images/boxplot.png)
+![Monthly Revenue](images/monthly_revenue.png)
+![Correlation](images/heatmap.png)
 
 ## Recommendations
 1. Find out why orders are cancelled or returned (biggest revenue leak).
