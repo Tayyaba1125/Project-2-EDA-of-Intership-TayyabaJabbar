@@ -33,4 +33,4 @@ Correlation is not causation, 2025 data is incomplete, and there are no reason c
 ## Tools & How to Run
 Python, Pandas, NumPy, Matplotlib, Seaborn. Open `Project2_internship.ipynb` in Google Colab, upload `Cleaned_Dataset.xlsx`, then `Runtime → Run all`.
 
-*Project 2, Data Analytics Internship at DecodeLabs (Batch 2026).*
+*Project 2, Data Analytics Internship at DecodeLabs *
